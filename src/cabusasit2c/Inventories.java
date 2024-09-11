@@ -22,7 +22,7 @@ public class Inventories {
         public void viewInventories(){
            
             System.out.printf("%-10d %-10s %-10s %-10d %-10.2f %-10s",
-                    id,name,category,stock,price,status);
+                    id,name,category,stock,price);
         }
         
         public static boolean checkID(int cid){
